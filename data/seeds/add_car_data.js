@@ -11,7 +11,7 @@ exports.seed = function(knex) {
           transmission_type: 'standard',
           title_status: 'clean',
           mileage: 152347,
-          vim_num: '3GTP2VE73CG142418',
+          vin_num: '3GTP2VE73CG142418',
           year: 2012
         },
         {
@@ -20,7 +20,7 @@ exports.seed = function(knex) {
           transmission_type: 'automatic',
           title_status: 'clean',
           mileage: 187432,
-          vim_num: '1VWBN7A33EC027448',
+          vin_num: '1VWBN7A33EC027448',
           year: 2005
         },
         {
@@ -29,7 +29,7 @@ exports.seed = function(knex) {
           transmission_type: 'automatic',
           title_status: 'clean',
           mileage: 28900,
-          vim_num: '1FTNE24W54HB21941',
+          vin_num: '1FTNE24W54HB21941',
           year: 2018
         },
         {
@@ -38,7 +38,7 @@ exports.seed = function(knex) {
           transmission_type: 'automatic',
           title_status: 'salvage',
           mileage: 234687,
-          vim_num: '1GTHK33284F275694',
+          vin_num: '1GTHK33284F275694',
           year: 1997
         },
         {
@@ -47,7 +47,7 @@ exports.seed = function(knex) {
           transmission_type: 'standard',
           title_status: 'salvage',
           mileage: 15234,
-          vim_num: '1G1ZD5E78BF240517',
+          vin_num: '1G1ZD5E78BF240517',
           year: 2019
         }
       ]);

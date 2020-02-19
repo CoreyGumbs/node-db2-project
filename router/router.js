@@ -4,7 +4,7 @@ const router = express.Router();
 
 
 router.get('/cars', (req, res) => {
-    db.get('cars')
+    db('cars')
     .then(car => {
         res.status(200).json(car);
     })
@@ -14,7 +14,7 @@ router.get('/cars', (req, res) => {
 });
 
 router.get('/cars/:id', (req, res) =>{
-    db.get('cars')
+    db('cars')
     .where({id: req.params.id})
     .first()
     .then(car => {
