@@ -7,7 +7,7 @@ exports.up = function(knex) {
       tbl.string('transmission_type', 256).nullable();
       tbl.string('title_status', 256).nullable();
       tbl.integer('mileage').notNullable();
-      tbl.string('VIN').notNullable();
+      tbl.string('vin_num').notNullable();
       tbl.timestamps();
   });
 };
