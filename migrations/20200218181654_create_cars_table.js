@@ -7,12 +7,12 @@ exports.up = function(knex) {
       tbl.string('transmission_type', 256).nullable();
       tbl.string('title_status', 256).nullable();
       tbl.integer('mileage').notNullable();
-      tbl.integer('VIN').notNullable();
-      table.timestamps();
+      tbl.string('VIN').notNullable();
+      tbl.timestamps();
   });
 };
 
 //undo changes
 exports.down = function(knex) {
-  
+  return knex.schema.dropTableIfExists('cars');
 };

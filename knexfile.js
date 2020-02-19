@@ -7,7 +7,7 @@ module.exports = {
     connection: {
       filename: './data/cars.db3'
     },
-    useNullAsDefault: true, //only needed for SQLite3
+    useNullAsDefault: true //only needed for SQLite3
   },
 
   staging: {
